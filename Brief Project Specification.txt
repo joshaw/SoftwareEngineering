@@ -55,6 +55,7 @@ Scope
 The scope of our design is limited primarily to subsystems devoted to user’s
 interactions with the Travpedia website. In particular, we will consider the
 following:
+
 * Travpedia account registration.
 * Searching for products.
 * Making new bookings.
