@@ -1,0 +1,35 @@
+﻿Component Diagram
+
+
+Components within our scope
+
+
+* User Account 
+* Search Engine
+* Booking
+* Payment
+
+
+Internal subsystems - out of scope
+
+
+* Reviewing subsystem
+* Subscriber subsystem
+* Promotional-offers subsystem
+* Backup subsystem
+* Security subsystem
+
+
+
+
+External Systems
+
+
+* GDS (reservations)
+* 3rd Party Consortium (payment)
+
+
+Note:  Interfaces between components are only included in the diagram where they relate to functionality within our scope.  (We are aware that other interfaces between components exist to deliver additional functionality)
+
+
+________________
