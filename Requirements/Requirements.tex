@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage{enumitem}
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\theenumiii}
+\renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
+\begin{document}
+\section{Functional Requirements}
+\label{sec:functional_requirements}
+
+\begin{enumerate}
+	\item Registration
+	\begin{enumerate}
+
+		\item The system shall allow visitors to the site to become a customer by registering for a new account
+		\begin{enumerate}
+			\item The system shall require each account to have a unique customer name
+			\item The system shall require the customer to choose and enter a password for his/her account
+			\item The system shall require the  customer to provide a valid email address
+			\item The system shall contact the customer by email to confirm that registration is complete
+		\end{enumerate}
+
+		\item Logging in
+		\begin{enumerate}
+			\item The system shall require the customer to log in using their registered customer name and password in order to use the facilities offered by Travpedia via the website
+		\end{enumerate}
+	\end{enumerate}
+
+	\item Customer Profiles
+	\begin{enumerate}
+		\item The system shall allow the customer to view his/her profile
+		\item The system shall allow the customer to amend his/her profile
+		\item The system shall allow the customer to save payment information in his/her profile
+		\item The system shall allow the customer to save preference information in his/her profile
+	\end{enumerate}
+
+	\item Search
+	\begin{enumerate}
+		\item The system shall allow a customer to search for products offered by Subscribers using combination of one or more criteria
+		\begin{enumerate}
+			\item The system shall allow the customer to search by type of product
+			\item The system shall allow the customer to search for accommodation products by location
+			\item The system shall allow the customer to search for travel products by point of departure and/or destination
+			\item The system shall allow the customer to search by specifying a start date and duration
+			\item The system shall allow the customer to search by specifying a target price range
+		\end{enumerate}
+		\item The system shall enable the customer to filter search results
+		\begin{enumerate}
+			\item The system shall enable the customer to filter results by price
+			\item The system shall enable the customer to filter results by review score
+			\item The system shall enable the customer to filter accommodation results by star rating
+			% \item The system allow the customer to view only results that match the preferences specified in his/her profiles
+		\end{enumerate}
+		\item The system shall enable the customer to sort search results
+		\begin{enumerate}
+			\item The system shall enable the customer to sort results by price
+			\item The system shall enable the customer to sort results by review score
+			\item The system shall enable the customer to sort accommodation results by star rating
+		\end{enumerate}
+	\end{enumerate}
+
+	\item Make a new booking
+	\begin{enumerate}
+		\item The system shall allow the customer to make a new booking
+	\end{enumerate}
+
+	\item View or amend an existing booking
+	\begin{enumerate}
+		\item The system shall allow the customer to view an existing booking
+		\item The system shall allow the customer to amend an existing booking
+		\item The system shall allow the customer to cancel a booking
+	\end{enumerate}
+
+	\item Make a payment
+	\begin{enumerate}
+		\item The system shall allow the customer to make a payment
+		\begin{enumerate}
+			\item The system shall allow the customer to pay by credit/debit card
+			\item The system shall allow the customer to pay by Travpedia voucher
+			\item The system shall allow the customer to pay by third-party voucher
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\section{Non-Functional Requirements}
+\label{ref:non_functional_requirements}
+
+\end{document}
