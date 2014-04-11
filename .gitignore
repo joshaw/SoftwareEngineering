@@ -1,0 +1,9 @@
+*.*~
+*.class
+*.RData
+*.toc
+*.log
+*.aux
+*.bbl
+*.blg
+*.zip
