@@ -3,8 +3,8 @@
 
 Use Case: Register
 Actors
-	Online user (primary actor)
-Servers  (secondary actor)
+	UserAccount (primary actor)
+User Database  (secondary actor)
  
 	Pre-conditions
 	1. User does not have an account with Travpedia
@@ -14,6 +14,7 @@ Servers  (secondary actor)
 	1. User opens the Travpedia website
 2. User is on the homepage and clicks ‘Create an Account’ link
 3. The system presents the user with an interface with empty fields asking for the following details:
+            - Name
             - Email Address
             - Password
             - Confirm Password
@@ -28,7 +29,7 @@ Servers  (secondary actor)
 11.The system redirects them back to Travpedia website and informs the user that their registration was successful
  
 	Post-conditions
-	1. Details are stored and backed in the servers
+	1. Details are stored in the user database and backed up
 2. The user is now registered and is signed in
 3. The user can now search and make a booking
  
@@ -43,8 +44,9 @@ Servers  (secondary actor)
 	 
 Use Case: Make a booking (Hotel only)
 Actors
-	Online user (primary actor)
-Servers  (secondary actor)
+	UserAccount (primary actor)
+User Database  (secondary actor)
+Product Database  (secondary actor)
 Third Party Consortium (secondary actor)
  
 	Pre-conditions
@@ -53,38 +55,34 @@ Third Party Consortium (secondary actor)
  
 	Flow of events
 	1. User is on the homepage where they can begin entering their search criteria
-2. User ticks ‘Hotel’. Other options include:
+2. User ticks ‘Accommodation’. Other options include:
             - Travel
-            - Hotel & Travel
+            - Package Holiday
 3. The interface changes slightly to accommodate booking a hotel only, the following details are required:
             ­- Destination/Hotel name (User can enter  
-              town, city, region or specific hotel)
+              postcode, city, region or specific hotel)
             - Check in date (link to a calendar)
             - Check out date (link to a calendar)
             - How many rooms
-            - How many adults
-            - How many children
             - Target price range
 4. User clicks ‘Search’
 5. The system presents the user with a list of available hotels, who have subscribed to Travpedia, matching their search criteria
 6. User browses the search results. Can filter by:
                     - Price
                     - Star rating
-                    - Board basis
 And sort by:
                     - Price
                     - Review score
                     - Star rating
 7. User click on the hotel they would like to book
-8. The system presents the user with a more detailed view of the hotel including photos and specific rooms available
-9. User selects which type of room they want and selects how many of these rooms they require
+8. The system presents the user with a more detailed view of the hotel including photos
+9. User selects the number of room they require
 10. User clicks ‘Book Now’
 11.The system presents the user with an interface with empty fields asking for various payment details:
 - Name on card
 - Billing address
 - Card type
-- Account number
-- Sort code
+- Card number
 - Expiry date
 - Security number
 - Voucher code (if entered, the system will reload the page displaying the new price to pay)
@@ -95,15 +93,15 @@ And sort by:
 15. User is presented with another screen summarising booking and payments details
 16. User clicks ‘Confirm’
 17. The transaction information is securely passed by the system to the credit/debit card consortium where the user’s payment details are validated
-18. The system redirects the users to a page thanking them for their booking
+18.The booking is processed and handled by the GDS
+19. The system redirects the users to a page thanking them for their booking
  
 	Post-conditions
 	1. User receives a confirmation email
-2. Details of the booking are stored in the servers – behaviour of user is used to determine future promotional offers and recommendations
-3. Payment details are securely stored in the servers (if user selects to save payment details)
+2. Details of the booking are stored in the user database – behaviour of user is used to determine future promotional offers and recommendations
+3. Payment details are securely stored in the user database (if user selects to save payment details)
 4. Details of the booking are available to view in ‘Manage Bookings’
 5. Hotel company is notified of the booking
- 
 	Scenarios
 	1. The destination or hotel name the user has specified produces no matches
 2. User enters the incorrect account number  – consortium confirms this, system generates an error message
@@ -112,10 +110,77 @@ And sort by:
  
 	
 
- Use Case: Cancel a booking
+Use Case: Make a booking (Travel by plane)
+
+
 Actors
-	1. Online user (primary actor)
-2. Servers (secondary actor)
+	UserAccount (primary actor)
+User Database  (secondary actor)
+Product Database  (secondary actor)
+Third Party Consortium (secondary actor)
+	Pre-conditions
+	1. User is registered with Travpedia
+2. User has signed in
+	Flow of events
+	1. User is on the homepage where they can begin entering their search criteria
+2. User ticks ‘Travel’. Other options include:
+            - Accommodation
+            - Package Holiday
+3. The interface changes slightly to accommodate booking a journey
+4. User ticks ‘One way’,  the following details are required:
+            ­- Type (of transport)
+            - Date (link to calendar)
+            - Start location
+            - End location
+            - Number of children
+            - Number of adults
+5. User clicks ‘Search’
+6. The system presents the user with a list of available flights, whose airline companies have subscribed to Travpedia, matching their search criteria
+7. User browses the search results. Can filter by price and sort by:
+                    - Price
+                    - Departure time
+8. User clicks on the journey they would like to book
+8. The system presents the user with a more detailed view of the flight
+9. User selects how many items of luggage they wish to take on the flight 
+10. User clicks ‘Book Now’
+11.The system presents the user with an interface with the total price and empty fields asking for various payment details:
+           - Passport number
+           - Passport issue date
+- Name on card
+- Billing address
+- Card type
+- Card number
+- Expiry date
+- Security number
+- Voucher code (if entered, the system will reload the page displaying the new price to pay)
+- Option to have Travpedia save payment  details
+12. User fills in all the fields
+13. User ticks to agree to terms and conditions
+14. User clicks ‘Pay Now’
+15. User is presented with another screen summarising booking and payments details
+16. User clicks ‘Confirm’
+17. The transaction information is securely passed by the system to the credit/debit card consortium where the user’s payment details are validated
+18.The booking is processed and handled by the GDS
+19. The system redirects the users to a page thanking them for their booking
+
+
+	Post-conditions
+	1. User receives a confirmation email
+2. Details of the booking are stored in the user database – behaviour of user is used to determine future promotional offers and recommendations
+3. Payment details are securely stored in the user database (if user selects to save payment details)
+4. Details of the booking are available to view in ‘Manage Bookings’
+5. Airline company is notified of the booking
+	scenarios 
+	1. The search criteria produces no results 
+2. User enters an invalid passport number - error message
+	 
+
+
+Use Case: Cancel a booking
+Actors
+	1. UserAccount (primary actor)
+2. Product Database (secondary actor)
+3. User Database (secondary actor)
 	Pre-conditions
 	1. User is registered
 2. User is logged in
@@ -124,7 +189,7 @@ Actors
 
 
 	Flow of events
-	1. User clicks ‘Manage Bookings’ on the websites homepage
+	1. User clicks ‘Manage Bookings’ on the website’s homepage
 2. The system directs the user to a page showing their past and current bookings
 3. User clicks on the booking they wish to cancel
 4. The system shows the booking in more detail with an option to cancel the booking
@@ -139,8 +204,8 @@ Actors
 	1. Hotel company is notified of the cancellation
 2. User receives email confirmation of cancellation
 3. Booking is removed from the user’s account in ‘Manage Bookings’
-4. Servers are updated of changes
-5. User receives money into their bank account 
+4. Both databases are updated of changes
+5. User receives appropriate refund
  
 	Scenarios
 	1. User disputes a no refund policy – not possible using website. User must contact the company directly
