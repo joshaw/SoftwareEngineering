@@ -1,0 +1,314 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+% DO NOT ALTER THIS PREAMBLE!!!
+%
+% This preamble is designed to ensure that the User's Guide prints
+% out as advertised. If you mess with this preamble,
+% parts of the User's Guide may not print out as expected.  If you
+% have problems LaTeXing this file, please contact 
+% the documentation team
+% email: lyx-docs@lists.lyx.org
+
+\usepackage{ifpdf} % part of the hyperref bundle
+\ifpdf % if pdflatex is used
+
+ % set fonts for nicer pdf view
+ \IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+
+\fi % end if pdflatex is used
+
+% for correct jump positions whe clicking on a link to a float
+\usepackage[figure]{hypcap}
+
+% the pages of the TOC is numbered roman
+% and a pdf-bookmark for the TOC is added
+\let\myTOC\tableofcontents
+\renewcommand\tableofcontents{%
+  \frontmatter
+  \pdfbookmark[1]{\contentsname}{}
+  \myTOC
+  \mainmatter }
+
+% define a short command for \textvisiblespace
+\newcommand{\spce}{\textvisiblespace}
+
+% macro for italic page numbers in the index
+\newcommand{\IndexDef}[1]{\textit{#1}}
+
+% for customized page headers/footers
+% only needed because they are only used in one section of the document
+\usepackage{fancyhdr}
+% change header rule width
+\renewcommand{\headrulewidth}{2pt}
+
+% workaround for a makeindex bug,
+% see sec. "Index Entry Order"
+% only uncomment this when you are using makindex
+%\let\OrgIndex\index 
+%\renewcommand*{\index}[1]{\OrgIndex{#1}}
+\usepackage{enumitem} 
+\setenumerate{itemsep=0ex,parsep=0ex} 
+\setitemize{itemsep=0ex,parsep=0ex} 
+\usepackage{color}
+\definecolor{blue}{RGB}{46,106,177}
+\usepackage{titlesec}
+\end_preamble
+\options refpage,intoc,bibliography=totoc,index=totoc,BCOR7.5mm,captions=tableheading
+\use_default_options false
+\begin_modules
+customHeadersFooters
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "The LyX User's Guide"
+\pdf_author "LyX Team"
+\pdf_subject "LyX"
+\pdf_keywords "LyX"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=black, citecolor=black, urlcolor=blue, filecolor=blue, pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\notefontcolor #0000ff
+\branch Question
+\selected 1
+\filename_suffix 0
+\color #00ff00
+\end_branch
+\branch Answer
+\selected 0
+\filename_suffix 0
+\color #aa55ff
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.54cm
+\topmargin 2.54cm
+\rightmargin 2.54cm
+\bottommargin 2.54cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+Specification
+\end_layout
+
+\begin_layout Standard
+Travpedia is an online travel and accommodation booking system.
+ Travel and accommodation companies are able to subscribe to Travpedia for
+ a monthly subscription cost of £200 plus an initial £50 joining fee.
+ This subscription allows the company to offer their products on the Travpedia
+ website where they can be purchased by visiting users.
+ Products that are advertised on the Travpedia website include accommodation,
+ package holidays and travel by air, rail and sea.
+ One or more products may be combined into a single booking.
+\end_layout
+
+\begin_layout Standard
+Visitors to the website, after registering an account, are able to search
+ for all available products offered by these subscribed companies.
+ They are able to search with a number of criteria including type of product,
+ location, date and price.
+ Users can then view these search results and book and pay for products
+ through the website.
+ Users may also rate and review accommodation and package holidays that
+ they have purchased.
+ A product gains a review score based on these ratings.
+ This review rating system provides further search criteria whereby a user
+ can filter search results by review score.
+\end_layout
+
+\begin_layout Standard
+Payments made by both subscribing companies and users are handled online
+ by a third party consortium.
+ Subscribers must pay by debit or credit card while users have the additional
+ option of paying with gift vouchers offered by Travpedia.
+\end_layout
+
+\begin_layout Standard
+Users are able to view bookings they have made and, where possible, cancel
+ these bookings and receive a refund via the third party consortium.
+\end_layout
+
+\begin_layout Standard
+Travpedia disseminates advertisements and promotional offers to users based
+ on previous patterns of use and previous purchases.
+ These personalised offering are sent to mobile phones through SMS and email
+ accounts.
+ Users may opt out of receiving SMS and email alerts.
+\end_layout
+
+\begin_layout Standard
+Travpedia also has a number of critical compliance and security requirements.
+ Travpedia stores users' personal information and payment details that should
+ not be disclosed to other parties or kept for any longer than necessary.
+ If this data is maliciously accessed, disclosed, leaked or manipulated
+ it could breach confidentiality and data protection.
+ Furthermore, any transaction 
+\end_layout
+
+\begin_layout Standard
+information sent to the third party consortium used for payment must be
+ kept secure.
+ This is done with encryption using 128-bit SSL certificates.
+\end_layout
+
+\begin_layout Standard
+During peak time, Travpedia receives up to one million simultaneous users
+ and is designed to handle this number of users.
+ The design is also scalable to accommodate its growing number of users
+ and subscribers.
+ This system is used by users 24 hours a days and must be always available.
+ All data that Travpedia stores must also be kept safe from system failures.
+ For this reason, user account details, itinerary and transaction data and
+ subscribers' data are stored and backed up on three database servers in
+ three distinct locations.
+ Two of these locations are in the UK and the other is in the USA.
+ This allows Travpedia to minimise downtime after unforeseen system failures.
+\end_layout
+
+\begin_layout Subsubsection*
+Scope
+\end_layout
+
+\begin_layout Standard
+The scope of our design is limited primarily to subsystems devoted to user's
+ interactions with the Travpedia website.
+ In particular, we will consider the following:
+\end_layout
+
+\begin_layout Itemize
+Travpedia account registration.
+\end_layout
+
+\begin_layout Itemize
+Searching for products.
+\end_layout
+
+\begin_layout Itemize
+Making new bookings.
+\end_layout
+
+\begin_layout Itemize
+Viewing and cancelling previous bookings.
+\end_layout
+
+\begin_layout Subsubsection*
+Assumptions
+\end_layout
+
+\begin_layout Standard
+We have made a number of assumptions regarding the external systems and
+ remaining internal modules described in the whole system specification.
+ We assume that these other modules have their own interface with which
+ we can communicate when necessary.
+ 
+\end_layout
+
+\begin_layout Description
+Subscribers: All aspects of company subscriptions to Travpedia are handled
+ by a separate module.
+ 
+\end_layout
+
+\begin_layout Description
+Consortium: The third party consortium will deal with all aspects of forwarding
+ user payments to Travpedia's subscribers.
+ We will be responsible for sending user payments to this consortium who
+ will then respond accordingly about the success of the transaction.
+\end_layout
+
+\begin_layout Description
+User
+\begin_inset space ~
+\end_inset
+
+Database: There is a database for user profile and account data.
+ We can make requests to this database to retrieve and update this data.
+\end_layout
+
+\begin_layout Description
+Product
+\begin_inset space ~
+\end_inset
+
+Database: There is a database for all travel and accommodation product data.
+ We can make requests to this database to retrieve and update this data.
+ 
+\end_layout
+
+\begin_layout Description
+Backup: In the case of both databases, we assume that another module handles
+ ensuring this data is backed up across the three distinct database locations.
+ Finally, this module also ensures that data is not held longer than necessary
+ in order to comply with the Data Protection Act.
+\end_layout
+
+\begin_layout Description
+Notifications: Users can request email and phone notifications.
+ Our system will provide the user with the option to receive these, but
+ a separate module deals with the selection and dissemination of this informatio
+n.
+\end_layout
+
+\end_body
+\end_document
