@@ -174,7 +174,11 @@ The system shall allow the user to search for travel by specifying a start
 \end_layout
 
 \begin_layout Enumerate
-Ths system shall allow the user to specify the number of rooms required
+The system shall allow the user to specify the number of rooms required
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to specify the number of seats required
 \end_layout
 
 \end_deeper
@@ -306,7 +310,7 @@ The system shall send all confirmation emails withing 2 minutes.
 \end_layout
 
 \begin_layout Enumerate
-The system be capable of handling 1 million simultateous users during peak
+The system shall be capable of handling 1 million simultaneous users during peak
  time.
 \end_layout
 
@@ -323,7 +327,7 @@ The system shall be available 24/7 for 99% of the time.
 
 \begin_layout Enumerate
 The system shall require users to confirm all booking and payment transactions
- before executing to mitigate agains user error (Error-tolerance)
+ before executing to mitigate against user error (Error-tolerance)
 \end_layout
 
 \begin_layout Enumerate
@@ -367,8 +371,7 @@ The system shall secure and encrypt all financial transactions passed to
 \end_layout
 
 \begin_layout Enumerate
-The system shall secure and encrypt all user data passed to the Global Distribut
-ion System (GDS) using 128-bit SSL certificates
+The system shall secure and encrypt all user data passed to the Global Distribution System (GDS) using 128-bit SSL certificates
 \end_layout
 
 \end_deeper
@@ -417,7 +420,7 @@ The system shall integrate with the GDS in order to ensure correct processing
 \end_layout
 
 \begin_layout Enumerate
-The system shall correcly integrate with the third party consortium that
+The system shall correctly integrate with the third party consortium that
  handles payments
 \end_layout
 
