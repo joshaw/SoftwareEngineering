@@ -1,0 +1,465 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+\usepackage{enumitem}\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\theenumiii}
+\renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.54cm
+\topmargin 2.54cm
+\rightmargin 2.54cm
+\bottommargin 2.54cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+Functional Requirements
+\end_layout
+
+\begin_layout Enumerate
+Registration 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to register for a new account.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall require the user to provide a name and valid email address
+ 
+\end_layout
+
+\begin_layout Enumerate
+The system shall require the user to choose and enter a password for his/her
+ account 
+\end_layout
+
+\begin_layout Enumerate
+The system shall contact the user by email to confirm that registration
+ is complete 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Logging in 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall require the user to log in using their registered email
+ address and password in order to use the facilities offered by Travpedia
+ via the website 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+User Account
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to view his/her account details
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to amend his/her account details
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to save payment information in his/her account
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to save mailing preference information in
+ his/her account
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Search 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow a user to search for products using a combination
+ of one or more criteria 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to search by type of product 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to search by specifying a target price range
+ 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to search for accommodation and/or package
+ holidays by location 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to search for accommodation and/or package
+ holidays by specifying a start date and an end date
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to search for travel by point of departure
+ and/or destination 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to search for travel by specifying a start
+ date and, optionally, a return date
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to specify the number of rooms required
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to specify the number of seats required
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The system shall enable the user to filter search results 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall enable the user to filter results by price range
+\end_layout
+
+\begin_layout Enumerate
+The system shall enable the user to filter accommodation results by star
+ rating
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The system shall enable the user to sort search results 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall enable the user to sort results by price 
+\end_layout
+
+\begin_layout Enumerate
+The system shall enable the user to sort results by review score 
+\end_layout
+
+\begin_layout Enumerate
+The system shall enable the user to sort accommodation results by star rating
+ 
+\end_layout
+
+\begin_layout Enumerate
+The system shall enable the user to sort travel results by departure time
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Make a new booking 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to make a new accommodation booking 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to make a new travel booking 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to make a new package holiday booking 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user combine one or more products into a single
+ booking
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+View or cancel an existing booking 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to view an existing booking 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to cancel a booking 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Make a payment 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to make a payment by either or both of the
+ following
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall allow the user to pay by credit/debit card 
+\end_layout
+
+\begin_layout Enumerate
+The system shall allow the user to pay by Travpedia voucher 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The system shall send the user an email to their registered email address
+ confirming details of the completed payment.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Non-Functional Requirements
+\end_layout
+
+\begin_layout Subsubsection*
+Product Requirements
+\end_layout
+
+\begin_layout Enumerate
+Efficiency 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall respond to a search request in under 10 seconds 
+\end_layout
+
+\begin_layout Enumerate
+The system shall respond to a user login request within 3 seconds
+\end_layout
+
+\begin_layout Enumerate
+The system shall send all confirmation emails withing 2 minutes.
+\end_layout
+
+\begin_layout Enumerate
+<<<<<<< HEAD
+The system shall be capable of handling 1 million simultaneous users during
+ peak time.
+=======
+The system shall be capable of handling 1 million simultaneous users during peak
+ time.
+>>>>>>> 040e194c26939b2dfb4baf4279ec5403c5360a74
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dependability
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall be available 24/7 for 99% of the time.
+ (Availability)
+\end_layout
+
+\begin_layout Enumerate
+The system shall require users to confirm all booking and payment transactions
+ before executing to mitigate against user error (Error-tolerance)
+\end_layout
+
+\begin_layout Enumerate
+The system will operate a mirror server - the principal and mirror servers
+ will be located at geographically separate locations in the UK.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The system will provide a further database server in the USA in order to
+ facilitate disaster recovery.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Usability
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall be easy to use (as evidenced by 80% positive feedback from
+ 'usability' questions on user satisfaction questionnaires).
+\end_layout
+
+\begin_layout Enumerate
+The system shall provide the user with context specific help.
+\end_layout
+
+\begin_layout Enumerate
+The system shall provide the user with information on the progress of all
+ searches taking more than 3 seconds.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Security
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system should block user access after 5 consecutive failed login attempts
+\end_layout
+
+\begin_layout Enumerate
+The system shall secure and encrypt all financial transactions passed to
+ the third party consortium using 128-bit SSL certificates
+\end_layout
+
+\begin_layout Enumerate
+The system shall secure and encrypt all user data passed to the Global Distribution System (GDS) using 128-bit SSL certificates
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Organisational Requirements
+\end_layout
+
+\begin_layout Enumerate
+Development
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall operate on all major web browsers e.g.
+ Internet Explorer, Firefox, Chrome, Safari
+\end_layout
+
+\begin_layout Enumerate
+The system shall operate on both desktop and mobile platforms
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Standards
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall conform with all requirements laid down in the company's
+ ISO 9001:2008 Quality Management Procedures
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+External Requirements
+\end_layout
+
+\begin_layout Enumerate
+Interoperability
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall integrate with the GDS in order to ensure correct processing
+ of user bookings
+\end_layout
+
+\begin_layout Enumerate
+The system shall correctly integrate with the third party consortium that
+ handles payments
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Legislative & Ethical
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The system shall comply with the Payment Card Industry Data Security Standards
+ (PCI DSS)
+\end_layout
+
+\begin_layout Enumerate
+The system shall comply with all requirements of the UK Data Protection
+ Act 2003.
+\end_layout
+
+\begin_layout Enumerate
+The system shall comply with level AA of the Web Content Accessibility Guideline
+s.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
