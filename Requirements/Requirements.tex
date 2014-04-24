@@ -1,88 +1,187 @@
-\documentclass{article}
-\usepackage{enumitem}
-\renewcommand{\labelenumii}{\theenumii}
-\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
-\renewcommand{\labelenumiii}{\theenumiii}
-\renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
-\begin{document}
-\section{Functional Requirements}
-\label{sec:functional_requirements}
+\section{Requirements}
+
+\subsection{Functional Requirements}
 
 \begin{enumerate}
 	\item Registration
-	\begin{enumerate}
 
-		\item The system shall allow visitors to the site to become a customer by registering for a new account
 		\begin{enumerate}
-			\item The system shall require each account to have a unique customer name
-			\item The system shall require the customer to choose and enter a password for his/her account
-			\item The system shall require the  customer to provide a valid email address
-			\item The system shall contact the customer by email to confirm that registration is complete
-		\end{enumerate}
+			\item The system shall allow the user to register for a new account.
 
-		\item Logging in
+				\begin{enumerate}
+					\item The system shall require the user to provide a name and valid email
+						address
+					\item The system shall require the user to choose and enter a password for
+						his/her account
+					\item The system shall contact the user by email to confirm that registration
+						is complete
+				\end{enumerate}
+			\item Logging in
+
+				\begin{enumerate}
+					\item The system shall require the user to log in using their registered
+						email address and password in order to use the facilities offered
+						by Travpedia via the website
+				\end{enumerate}
+		\end{enumerate}
+	\item User Account
+
 		\begin{enumerate}
-			\item The system shall require the customer to log in using their registered customer name and password in order to use the facilities offered by Travpedia via the website
+			\item The system shall allow the user to view his/her account details
+			\item The system shall allow the user to amend his/her account details
+			\item The system shall allow the user to save payment information in his/her
+				account
+			\item The system shall allow the user to save mailing preference information
+				in his/her account
 		\end{enumerate}
-	\end{enumerate}
-
-	\item Customer Profiles
-	\begin{enumerate}
-		\item The system shall allow the customer to view his/her profile
-		\item The system shall allow the customer to amend his/her profile
-		\item The system shall allow the customer to save payment information in his/her profile
-		\item The system shall allow the customer to save preference information in his/her profile
-	\end{enumerate}
-
 	\item Search
-	\begin{enumerate}
-		\item The system shall allow a customer to search for products offered by Subscribers using combination of one or more criteria
-		\begin{enumerate}
-			\item The system shall allow the customer to search by type of product
-			\item The system shall allow the customer to search for accommodation products by location
-			\item The system shall allow the customer to search for travel products by point of departure and/or destination
-			\item The system shall allow the customer to search by specifying a start date and duration
-			\item The system shall allow the customer to search by specifying a target price range
-		\end{enumerate}
-		\item The system shall enable the customer to filter search results
-		\begin{enumerate}
-			\item The system shall enable the customer to filter results by price
-			\item The system shall enable the customer to filter results by review score
-			\item The system shall enable the customer to filter accommodation results by star rating
-			% \item The system allow the customer to view only results that match the preferences specified in his/her profiles
-		\end{enumerate}
-		\item The system shall enable the customer to sort search results
-		\begin{enumerate}
-			\item The system shall enable the customer to sort results by price
-			\item The system shall enable the customer to sort results by review score
-			\item The system shall enable the customer to sort accommodation results by star rating
-		\end{enumerate}
-	\end{enumerate}
 
+		\begin{enumerate}
+			\item The system shall allow a user to search for products using a combination
+				of one or more criteria
+
+				\begin{enumerate}
+					\item The system shall allow the user to search by type of product
+					\item The system shall allow the user to search for accommodation products
+						by location
+					\item The system shall allow the user to search for travel products by point
+						of departure and/or destination
+					\item The system shall allow the user to search by specifying a target price
+						range
+					\item The system shall allow the user to search for accommodation and/or
+						package holidays by specifying a start date and an end date
+					\item The system shall allow the user to search for travel by specifying
+						a start date and, optionally, a return date
+					\item The system shall allow the user to specify the number of rooms required
+					\item The system shall allow the user to specify the number of seats required
+				\end{enumerate}
+			\item The system shall enable the user to filter search results
+
+				\begin{enumerate}
+					\item The system shall enable the user to filter results by price range
+					\item The system shall enable the user to filter accommodation results by
+						star rating
+				\end{enumerate}
+			\item The system shall enable the user to sort search results
+
+				\begin{enumerate}
+					\item The system shall enable the user to sort results by price
+					\item The system shall enable the user to sort results by review score
+					\item The system shall enable the user to sort accommodation results by
+						star rating
+					\item The system shall enable the user to sort travel results by departure
+						time
+				\end{enumerate}
+		\end{enumerate}
 	\item Make a new booking
-	\begin{enumerate}
-		\item The system shall allow the customer to make a new booking
-	\end{enumerate}
 
-	\item View or amend an existing booking
-	\begin{enumerate}
-		\item The system shall allow the customer to view an existing booking
-		\item The system shall allow the customer to amend an existing booking
-		\item The system shall allow the customer to cancel a booking
-	\end{enumerate}
-
-	\item Make a payment
-	\begin{enumerate}
-		\item The system shall allow the customer to make a payment
 		\begin{enumerate}
-			\item The system shall allow the customer to pay by credit/debit card
-			\item The system shall allow the customer to pay by Travpedia voucher
-			\item The system shall allow the customer to pay by third-party voucher
+			\item The system shall allow the user to make a new accommodation booking
+			\item The system shall allow the user to make a new travel booking
+			\item The system shall allow the user to make a new package holiday booking
+			\item The system shall allow the user combine one or more products into
+				a single booking
 		\end{enumerate}
-	\end{enumerate}
+	\item View or cancel an existing booking
+
+		\begin{enumerate}
+			\item The system shall allow the user to view an existing booking
+			\item The system shall allow the user to cancel a booking
+		\end{enumerate}
+	\item Make a payment
+
+		\begin{enumerate}
+			\item The system shall allow the user to make a payment by either or both
+				of the following
+
+				\begin{enumerate}
+					\item The system shall allow the user to pay by credit/debit card
+					\item The system shall allow the user to pay by Travpedia voucher
+				\end{enumerate}
+			\item The system shall send the user an email to their registered email
+				address confirming details of the completed payment.
+		\end{enumerate}
 \end{enumerate}
 
-\section{Non-Functional Requirements}
-\label{ref:non_functional_requirements}
+\subsection{Non-Functional Requirements}
 
-\end{document}
+\subsubsection{Product Requirements}
+\begin{enumerate}
+	\item Efficiency
+
+		\begin{enumerate}
+			\item The system shall respond to a search request in under 10 seconds
+			\item Ths system shall respond to a user login request within 3 seconds
+			\item The system shall send all confirmation emails withing 2 minutes.
+			\item The system shall be capable of handling 1 million simultaneous users
+				during peak time.
+		\end{enumerate}
+	\item Dependability
+
+		\begin{enumerate}
+			\item The system shall be available 24/7 for 99\% of the time. (Availability)
+			\item The system shall require users to confirm all booking and payment
+				transactions before executing to mitigate against user error (Error-tolerance)
+			\item The system will operate a mirror server - the principal and mirror
+				servers will be located at geographically separate locations in the
+				UK.
+			\item The system will provide a further database server in the USA in order
+				to facilitate disaster recovery.
+		\end{enumerate}
+	\item Usability
+
+		\begin{enumerate}
+			\item The system shall be easy to use (as evidenced by 80\% positive feedback
+				from 'usability' questions on user satisfaction questionnaires).
+			\item The system shall provide the user with context specific help.
+		\end{enumerate}
+	\item Security
+
+		\begin{enumerate}
+			\item The system should block user access after 5 consecutive failed login
+				attempts
+			\item The system shall secure and encrypt all financial transactions passed
+				to the third party consortium using 128-bit SSL certificates
+			\item The system shall secure and encrypt all user data passed to the Global
+				Distribution System (GDS) using 128-bit SSL certificates
+		\end{enumerate}
+\end{enumerate}
+
+\subsubsection{Organisational Requirements}
+\begin{enumerate}
+	\item Development
+
+		\begin{enumerate}
+			\item The system shall operate on all major web browsers e.g. Internet Explorer,
+				Firefox, Chrome, Safari
+			\item The system shall operate on both desktop and mobile platforms
+		\end{enumerate}
+	\item Standards
+
+		\begin{enumerate}
+			\item The system shall conform with all requirements laid down in the company's
+				ISO 9001:2008 Quality Management Procedures
+		\end{enumerate}
+\end{enumerate}
+
+\subsubsection{External Requirements}
+\begin{enumerate}
+	\item Interoperability
+
+		\begin{enumerate}
+			\item The system shall integrate with the GDS in order to ensure correct
+				processing of user bookings
+			\item The system shall correctly integrate with the third party consortium
+				that handles payments
+		\end{enumerate}
+	\item Legislative \& Ethical
+
+		\begin{enumerate}
+			\item The system shall comply with the Payment Card Industry Data Security
+				Standards (PCI DSS)
+			\item The system shall comply with all requirements of the UK Data Protection
+				Act 2003.
+			\item The system shall comply with level AA of the Web Content Accessibility
+				Guidelines.
+		\end{enumerate}
+\end{enumerate}

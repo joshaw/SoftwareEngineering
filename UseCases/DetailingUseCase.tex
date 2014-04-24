@@ -1,0 +1,355 @@
+\tablewidth
+
+% {{{
+\hspace{-4.2cm}
+\begin{minipage}[h][][s]{\linewidth}
+	\section{Detailing a Use Case}
+	\subsection{Use Case: Register}
+\end{minipage}
+
+\marginhead{\textbf{Actors}}
+\begin{itemize}
+	\item UserAccount (primary actor)
+	\item UserDatabase (secondary actor)
+\end{itemize}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Pre-conditions}}
+\begin{enumerate}
+	\item User does not have an account with Travpedia
+	\item User has an email address
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Flow of events (Success Scenario)}}
+\begin{enumerate}
+	\item User opens the Travpedia website
+	\item User is on the homepage and clicks ``Create an Account'' link
+	\item The system presents the user with an interface with empty fields
+		asking for the following details:
+		\begin{itemize}
+			\item Name
+			\item Email Address
+			\item Password
+			\item Confirm Password
+		\end{itemize}
+	\item User fills these fields in and clicks ``Next''
+	\item User then has the option to provide their mobile number and tick
+		``please text and email me with Travpedia deals and promotional
+		offers'' if they wish to receive this service
+	\item User ticks ``I have read and agree to the Terms and Conditions''
+	\item User clicks ``Create Account'' button. If any details are invalid
+		or a field has not been filled, the user will be shown an error
+		message and asked to re-enter their information
+	\item The system validates the users details and sends a confirmation
+		email to the users email address
+	\item The system displays a message telling the user that they should
+		have received a confirmation email and that they should open this
+		email to verify their email address
+	\item User opens the confirmation email and clicks on the link to
+		verify their email address
+	\item The system redirects them back to Travpedia website and informs
+		the user that their registration was successful
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Post-conditions}}
+\begin{enumerate}
+	\item Details are stored in the user database and backed up
+	\item The user is now registered and is signed in
+	\item The user can now search and make a booking
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginpar{\textbf{Scenarios}}
+\begin{enumerate}
+	\item User forgets to tick the box confirming they have read and agree
+		to the terms and conditions – cannot proceed to next page
+	\item User does not confirm their email address, their registration is
+		incomplete
+	\item User leaves the interface before clicking ``Create Account'',
+		registration is incomplete
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Additional Notes}}
+The user has the opportunity to update their profile by going into their
+account, here they can specify travel and hotel preferences.
+
+\noindent\rule{\textwidth}{0.6pt}
+%}}}
+%{{{
+
+\vspace{4ex}
+\hspace{-4.2cm}
+\begin{minipage}[h][][s]{\linewidth}
+	\subsection{Use Case: Make a Booking (Hotel Only)}
+\end{minipage}
+
+\marginhead{\textbf{Actors}}
+\begin{itemize}
+	\item UserAccount (primary actor)
+	\item User Database  (secondary actor)
+	\item Product Database  (secondary actor)
+	\item Third Party Consortium (secondary actor)
+\end{itemize}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Pre-conditions}}
+\begin{enumerate}
+	\item User is registered with Travpedia
+	\item User has signed in
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Flow of events (Success Scenario)}}
+\begin{enumerate}
+	\item User is on the homepage where they can begin entering their
+		search criteria
+	\item User ticks ``Accommodation''. Other options include:
+		\begin{itemize}
+			\item Travel
+			\item Package Holiday
+		\end{itemize}
+	\item The interface changes slightly to accommodate booking a hotel
+		only, the following details are required:
+		\begin{itemize}
+			\item Destination/Hotel name (User can enter postcode, city,
+				region or specific hotel)
+			\item Check in date (link to a calendar)
+			\item Check out date (link to a calendar)
+			\item How many rooms
+			\item Target price range
+		\end{itemize}
+	\item User clicks ``Search''
+	\item The system presents the user with a list of available hotels, who
+		have subscribed to Travpedia, matching their search criteria
+	\item User browses the search results. Can filter by price and star
+		rating and sort by price, review score and star rating
+	\item User click on the hotel they would like to book
+	\item The system presents the user with a more detailed view of the
+		hotel including photos
+	\item User selects the number of room they require
+	\item User clicks ``Book Now''
+	\item The system presents the user with an interface with empty fields
+		asking for various payment details:
+		\begin{itemize}
+			\item Name on card
+			\item Billing address
+			\item Card type
+			\item Card number
+			\item Expiry date
+			\item Security number
+			\item Voucher code (if entered, the system will reload the page
+				displaying the new price to pay)
+			\item Option to have Travpedia save payment  details
+		\end{itemize}
+	\item User fills in all the fields
+	\item User ticks to agree to terms and conditions
+	\item User clicks ``Pay Now''
+	\item User is presented with another screen summarising booking and
+		payments details
+	\item User clicks ``Confirm''
+	\item The transaction information is securely passed by the system to
+		the credit/debit card consortium where the user''s payment details
+		are validated
+	\item The booking is processed and handled by the GDS
+	\item The system redirects the users to a page thanking them for their
+		booking
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Post-conditions}}
+\begin{enumerate}
+	\item User receives a confirmation email
+	\item Details of the booking are stored in the user database –
+		behaviour of user is used to determine future promotional offers
+		and recommendations
+	\item Payment details are securely stored in the user database (if user
+		selects to save payment details)
+	\item Details of the booking are available to view in ``Manage
+		Bookings''
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Scenarios}}
+\begin{enumerate}
+	\item The destination or hotel name the user has specified produces no
+		matches
+	\item User enters the incorrect account number  – consortium confirms
+		this, system generates an error message
+	\item User may think booking is complete after clicking ``Pay Now'' –
+		leaves website before clicking ``Confirm'' – booking is incomplete
+	\item When user clicks ``Confirm'', the system loads for several minutes
+		and eventually times out – booking is incomplete
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+%}}}
+%{{{
+
+\vspace{4ex}
+\hspace{-4.2cm}
+\begin{minipage}[h][][s]{\linewidth}
+	\subsection{Use Case: Make a Booking (Travel by Plane)}
+\end{minipage}
+
+\marginhead{\textbf{Actors}}
+\begin{itemize}
+	\item UserAccount (primary actor)
+	\item User Database  (secondary actor)
+	\item Product Database  (secondary actor)
+	\item Third Party Consortium (secondary actor)
+\end{itemize}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Pre-conditions}}
+\begin{enumerate}
+	\item User is registered with Travpedia
+	\item User has signed in
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Flow of events (Success Scenario)}}
+\begin{enumerate}
+	\item User is on the homepage where they can begin entering their search
+		criteria
+	\item User ticks ``Travel''. Other options include:
+	\begin{itemize}
+		\item Accommodation
+		\item Package Holiday
+	\end{itemize}
+	\item The interface changes slightly to accommodate booking a journey
+	\item User ticks ``One way'',  the following details are required:
+	\begin{itemize}
+		\item Type (of transport)
+		\item Date (link to calendar)
+		\item Start location
+		\item End location
+		\item Number of
+	\end{itemize}
+	\item User clicks ``Search''
+	\item The system presents the user with a list of available flights, whose
+		airline companies have subscribed to Travpedia, matching their search
+		criteria
+	\item User browses the search results. Can filter by price range and sort
+		by price and departure time
+	\item User clicks on the journey they would like to book
+	\item The system presents the user with a more detailed view of the flight
+	\item User selects how many items of luggage they wish to take on the
+		flight
+	\item User clicks ``Book Now''
+	\item The system presents the user with an interface with the total price
+		and empty fields asking for various payment details:
+	\begin{itemize}
+		\item Passport number
+		\item Passport issue date
+		\item Name on card
+		\item Billing address
+		\item Card type
+		\item Card number
+		\item Expiry date
+		\item Security number
+		\item Voucher code (if entered, the system will reload the page
+			displaying the new price to pay)
+		\item Option to have Travpedia save payment  details
+	\end{itemize}
+	\item User fills in all the fields
+	\item User ticks to agree to terms and conditions
+	\item User clicks ``Pay Now''
+	\item User is presented with another screen summarising booking and
+		payments details
+	\item User clicks ``Confirm''
+	\item The transaction information is securely passed by the system to the
+		credit/debit card consortium where the user''s payment details are
+		validated
+	\item The booking is processed and handled by the GDS
+	\item The system redirects the users to a page thanking them for their
+		booking
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Post-conditions}}
+\begin{enumerate}
+	\item User receives a confirmation email
+	\item Details of the booking are stored in the user database – behaviour of
+		user is used to determine future promotional offers and recommendations
+	\item Payment details are securely stored in the user database (if user
+		selects to save payment details)
+	\item Details of the booking are available to view in ``Manage Bookings''
+	\item Airline company is notified of the booking
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Scenarios}}
+\begin{enumerate}
+	\item The search criteria produces no results
+	\item User enters an invalid passport number - error message
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+%}}}
+%{{{
+
+\vspace{4ex}
+\hspace{-4.2cm}
+\begin{minipage}[h][][s]{\linewidth}
+	\subsection{Use Case: Cancel a Booking}
+\end{minipage}
+
+\marginhead{\textbf{Actors}}
+\begin{itemize}
+	\item UserAccount (primary actor)
+	\item Product Database (secondary actor)
+	\item User Database (secondary actor)
+\end{itemize}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Pre-conditions}}
+\begin{enumerate}
+	\item User is registered
+	\item User is logged in
+	\item User has made a booking
+	\item The terms and conditions of the booking in question specify that
+		cancellations are permitted
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Flow of events (Success Scenario)}}
+\begin{enumerate}
+	\item User clicks ``Manage Bookings'' on the website''s homepage
+	\item The system directs the user to a page showing their past and current
+		bookings
+	\item User clicks on the booking they wish to cancel
+	\item The system shows the booking in more detail with an option to cancel
+		the booking
+	\item User clicks ``Cancel booking''
+	\item User is asked to confirm that they are sure they want to cancel the
+		booking
+	\item User clicks ``Confirm Cancellation''
+	\item This information is relayed to the credit/debit card consortium which
+		will handle the refund
+	\item The system redirects the user to a page confirming their cancellation
+		was successful
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Post-conditions}}
+\begin{enumerate}
+	\item Hotel company is notified of the cancellation
+	\item User receives email confirmation of cancellation
+	\item Booking is removed from the user''s account in ``Manage Bookings''
+	\item Both databases are updated of changes
+	\item User receives appropriate refund
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+
+\marginhead{\textbf{Scenarios}}
+\begin{enumerate}
+	\item User disputes a no refund policy – not possible using website. User
+		must contact the company directly
+	\item User leaves the website after clicking ``Cancel Booking'' – User has
+		not clicked ``Confirm Cancellation'' – Booking has not been cancelled
+\end{enumerate}
+\noindent\rule{\textwidth}{0.6pt}
+%}}}
+
+\restoregeometry
