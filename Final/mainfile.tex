@@ -1,0 +1,138 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+%%% PAGE DIMENSIONS ------------------------------------------------------------
+\usepackage[bottom=1.5in]{geometry}
+\usepackage[parfill]{parskip}
+
+%%% HEADERS & FOOTERS ----------------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%%% PACKAGES -------------------------------------------------------------------
+%\usepackage{morefloats}
+\usepackage[hypcap=false,
+	font=small,
+	labelfont=bf,
+	textfont=it]{caption}
+\usepackage[pdftex]{graphicx}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pdflscape}
+\usepackage[percentage]{overpic}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+% \usepackage[%
+% 	activate={true,nocompatibility},
+% 	final,
+% 	tracking=true,
+% 	kerning=true,
+% 	spacing=true,
+% 	factor=1100,
+% 	stretch=10,
+% 	shrink=10]{microtype}
+% \microtypecontext{spacing=nonfrench}
+
+%% BIBIOGRAPHY -----------------------------------------------------------------
+\usepackage{cite}
+
+%%% ToC (table of contents) APPEARANCE -----------------------------------------
+% \usepackage[nottoc,notlof,notlot]{tocbibind}
+% \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+% \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape}
+\setcounter{tocdepth}{2}
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+
+%%% PDF LINKS AND STYLE --------------------------------------------------------
+% \usepackage[unicode=true,
+% 	bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,
+% 	bookmarksopenlevel=2, breaklinks=false,pdfborder={0 0 0},backref=false,
+% 	colorlinks=false]{hyperref}
+\usepackage[bookmarks=true]{hyperref}
+\hypersetup{%
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+	citecolor=green,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=cyan           % color of external links
+}
+
+\newcommand\tablewidth{%
+	\newgeometry{
+	marginparwidth=3.2cm,
+	marginparsep=0.8cm,
+	left=7.2cm,
+	bottom=1.5in}
+	\reversemarginpar
+}
+
+\newcommand\marginhead[1]{%
+	\vspace{10pt}
+	\marginpar{\null #1}
+}
+
+\usepackage{enumitem}
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\theenumiii}
+\renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
+
+%*******************************************************************************
+%******************************** END HEADER ***********************************
+%*******************************************************************************
+
+\begin{document}
+
+\input{titlepage.tex}
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+\setcounter{page}{1}
+\tableofcontents
+\addcontentsline{toc}{section}{Contents}
+\newpage
+
+\input{../ProjectSpecification/BriefProjectSpecification.tex}
+\newpage
+\input{../Requirements/Requirements.tex}
+\newpage
+
+\section{Use Case Diagram}
+\begin{figure}[h!]
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[angle=90,width=1.2\linewidth]{../UseCaseDiagram/UseCaseDiagram.pdf}}%
+	\caption{Use case diagram}
+\end{figure}
+\newpage
+\input{../UseCases/DetailingUseCase.tex}
+
+\section{Activity Diagram}
+\begin{minipage}{\linewidth}
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[width=1.0\linewidth]{../ActivityDiagram/ActivityDiagram_crop.pdf}}%
+	\captionof{figure}{Use case diagram}
+\end{minipage}
+\newpage
+
+\section{Object Diagram}
+\begin{figure}[h!]
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.9\textheight]{../ObjectDiagram/ObjectDiagram.pdf}}%
+	\caption{Object diagram}
+\end{figure}
+\newpage
+
+\end{document}
+
+% vim: autochdir
