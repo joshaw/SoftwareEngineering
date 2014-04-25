@@ -31,16 +31,15 @@
 \usepackage{pdfpages}
 \usepackage{tikz}
 \usetikzlibrary{patterns}
-% \usepackage[%
-% 	activate={true,nocompatibility},
-% 	final,
-% 	tracking=true,
-% 	kerning=true,
-% 	spacing=true,
-% 	factor=1100,
-% 	stretch=10,
-% 	shrink=10]{microtype}
-% \microtypecontext{spacing=nonfrench}
+\usepackage[%
+	activate={true,nocompatibility},
+	final,
+	tracking=true,
+	kerning=true,
+	spacing=true,
+	factor=1100,
+	stretch=10,
+	shrink=10]{microtype}
 
 %% BIBIOGRAPHY -----------------------------------------------------------------
 \usepackage{cite}
@@ -87,6 +86,8 @@
 \renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
 \renewcommand{\labelenumiii}{\theenumiii}
 \renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
+\newcommand{\anoun}[1]{\textcolor{red}{\textsc{#1}}}
+\newcommand{\averb}[1]{\textcolor{blue}{#1}}
 
 %*******************************************************************************
 %******************************** END HEADER ***********************************
@@ -127,6 +128,10 @@
 	\caption{Activity diagram}
 \end{figure}
 \clearpage
+
+\section{Class Analysis}
+
+\input{../CRC/Nounverbanalysis.tex}
 \input{../CRC/CRC.tex}
 \clearpage
 
