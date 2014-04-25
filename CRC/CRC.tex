@@ -1,0 +1,181 @@
+\section{CRC}
+
+Responsibilities of a class are things it knows and things it does. Terminology
+used here:
+\begin{description}
+	\item[Has] this is required
+	\item[May have] this is optional
+	\item[Maintains] used where class contains a collection of zero more objects
+\end{description}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{User Account}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains user profile information & \\
+	Maintains stored payment method information & \\
+	Maintains user preferences & \\
+	Maintains a collection of past and current bookings & Booking \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Product (Abstract)}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:} PackageHoliday, Accommodation, Journey} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	A superclass maintaining information about a journey or accommodation product
+	& Journey \newline
+		PackageHoliday \newline
+		Accommodation \\
+	Has a product reference & \\
+	Has a price & \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Journey}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:} Product} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains information about a particular journey: dates, start and end
+	location & \\
+	Has a transport type & \\
+	Is bookable & \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Accommodation}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:} Product} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains details about the accommodation & \\
+	Maintains information & \\
+	Is able to calculate its review score & \\
+	Has a star rating & \\
+	Is reviewable & Review \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Package Holiday}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:} Product} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains information about a PackageHoliday & \\
+	Is reviewable & \\
+	Maintains a collection of reviews & Review \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Booking}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Has one or more Travel Products & Travel Product \\
+	Is payable & \\
+	Is viewable & \\
+	Is cancellable & \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Payment}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains a collection of Travpedia Vouchers used & Travpedia Voucher \\
+	May know details of payment card used & Payment card \\
+	May know card authorization code & \\
+	Can send itself to payment subsystem & \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Search Results}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Has criteria & Travel Product \\
+	Maintains a collection of Travel Products that satisfy its criteria & \\
+	Can sort itself by price or review score & \\
+	Can filter itself by price range, review score, board basis or star rating & Review \\
+	\bottomrule
+\end{tabu}
+\end{center}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabu}{p{8cm} | p{3cm}}
+	\multicolumn{2}{l}{\cellcolor{blue!25}\textbf{Reveiw}} \\
+	\toprule
+	\multicolumn{2}{l}{\emph{Superclass:}} \\
+	\midrule
+	\multicolumn{2}{l}{\emph{Subclass:}} \\
+	\midrule
+	\emph{Responsibilities}: & \emph{Collaborators:} \\
+	\midrule
+	Maintains all information pertaining &
+		Accommodation \newline
+		PackageHoliday \\
+	\bottomrule
+\end{tabu}
+\end{center}
