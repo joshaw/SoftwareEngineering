@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 
 %%% PAGE DIMENSIONS ------------------------------------------------------------
-\usepackage[bottom=1.5in]{geometry}
+\usepackage[bottom=1in]{geometry}
 \usepackage[parfill]{parskip}
 
 %%% HEADERS & FOOTERS ----------------------------------------------------------
@@ -72,7 +72,7 @@
 	marginparwidth=3.2cm,
 	marginparsep=0.8cm,
 	left=7.2cm,
-	bottom=1.5in}
+	bottom=1in}
 	\reversemarginpar
 }
 
@@ -96,34 +96,36 @@
 \input{titlepage.tex}
 \mbox{}
 \thispagestyle{empty}
-\newpage
 
-\setcounter{page}{1}
 \tableofcontents
-\addcontentsline{toc}{section}{Contents}
-\newpage
+\clearpage
+\setcounter{page}{1}
 
 \input{../ProjectSpecification/BriefProjectSpecification.tex}
-\newpage
+\clearpage
 \input{../Requirements/Requirements.tex}
-\newpage
+\clearpage
 
 \section{Use Case Diagram}
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[angle=90,width=1.2\linewidth]{../UseCaseDiagram/UseCaseDiagram.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[angle=90,width=1.06\linewidth]{../UseCaseDiagram/UseCaseDiagram.pdf}}%
 	\caption{Use case diagram}
 \end{figure}
-\newpage
 \input{../UseCases/DetailingUseCase.tex}
 
 \section{Activity Diagram}
-\begin{minipage}{\linewidth}
+\begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[width=1.0\linewidth]{../ActivityDiagram/ActivityDiagram_crop.pdf}}%
-	\captionof{figure}{Use case diagram}
-\end{minipage}
-\newpage
+	\makebox[\textwidth][c]{\includegraphics[angle=90,width=\linewidth]{../ActivityDiagram/ActivityDiagram_top.pdf}}%
+	\caption{Activity diagram}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\makebox[\textwidth][c]{\includegraphics[angle=90,width=\linewidth]{../ActivityDiagram/ActivityDiagram_bottom.pdf}}%
+	\caption{Activity diagram}
+\end{figure}
+\clearpage
 
 \section{Object Diagram}
 \begin{figure}[h!]
@@ -131,7 +133,7 @@
 	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.9\textheight]{../ObjectDiagram/ObjectDiagram.pdf}}%
 	\caption{Object diagram}
 \end{figure}
-\newpage
+\clearpage
 
 \end{document}
 
