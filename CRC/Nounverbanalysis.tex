@@ -3,8 +3,8 @@
 \anoun{Travpedia} is an online travel and accommodation \anoun{booking system}.
 
 \emph{Travel and accommodation companies are able to subscribe to Travpedia for
-a monthly subscription cost of £200 plus an initial £50 joining fee. This
-subscription allows the company to offer their products on the Travpedia
+	a monthly subscription cost of £200 plus an initial £50 joining fee. This
+	subscription allows the company to offer their products on the Travpedia
 website where they can be purchased by visiting users.}
 
 \anoun{Products} that are \averb{advertised} on the Travpedia \anoun{website}
@@ -33,7 +33,162 @@ possible, \averb{cancel} these bookings and \averb{receive} a \anoun{refund}
 via the third party consortium.
 
 \emph{Travpedia disseminates advertisements and promotional offers to users
-based on previous patterns of use and previous purchases.  These personalised
+	based on previous patterns of use and previous purchases.  These personalised
 offering are sent to mobile phones through SMS and email accounts.}
 
 Users may \averb{opt out} of receiving phone and email \anoun{alerts}.
+
+\subsection{Nouns}
+
+\renewcommand*{\arraystretch}{1.3}
+% \begin{longtabu}{m{2.8cm} >{\centering\arraybackslash}m{1.6cm} >{\centering\arraybackslash}m{2.8cm} X[m]}
+\begin{longtable}{m{2.8cm} >{\centering\arraybackslash}m{1.6cm} >{\centering\arraybackslash}m{2.8cm} m{5.8cm}}
+	\toprule
+	\textbf{Noun (Cont.)} & \textbf{Accepted} & \textbf{Class Name} & \textbf{Rationale} \\
+	\endhead
+	\toprule
+	\textbf{Noun} & \textbf{Accepted as Class} & \textbf{Class Name} & \textbf{Rationale} \\
+	\endfirsthead
+	\midrule
+	Travpedia \newline
+	booking system \newline
+	website
+	& No &  & The whole system is the Travpedia website \\
+
+	\midrule
+	account \newline
+	user \newline
+	visitor
+	& Yes & UserAccount & Class will hold user information, payment details,
+	mailing preferences and details of bookings \\
+
+	\midrule
+	advertisement \newline
+	promotional offer
+	& No &  & Part of subscriber promotions subsystem, outside scope \\
+
+	\midrule
+	product \newline
+	service
+	& Yes & Product & Superclass \\
+
+	\midrule
+	type of product
+	& No &  & This is defined by the subclasses of Product \\
+
+	\midrule
+	accommodation
+	& Yes & Accommodation & Subclass of Product \\
+
+	\midrule
+	package
+	& Yes & PackageHoliday & Subclass of Product \\
+
+	\midrule
+	travel
+	& Yes & Travel & Subclass of Product \\
+
+	\midrule
+	air
+	& Yes & Flight & Subclass of Travel, subclasses used because different
+	forms of travel have some common attributes and some distinct ones \\
+
+	\midrule
+	rail
+	& Yes & Rail & Subclass of Travel \\
+
+	\midrule
+	sea
+	& Yes & Ferry & Subclass of Travel \\
+
+	\midrule
+	alerts
+	& No &  & Part of promotional mailing subsystem \\
+
+	\midrule
+	booking
+	& Yes & Booking & Class holds all information about an individual booking \\
+
+	\midrule
+	company \newline
+	subscriber
+	& No &  & Part of subsystem that handles company subscriptions \\
+
+	\midrule
+	consortium
+	& No &  & Part of payment sub-system \\
+
+	\midrule
+	payment \newline
+	credit card \newline
+	debit card \newline
+	gift voucher \newline
+	refund
+	& Yes & Payment & Class holds information relating to a payment (refund is a negative payment) \\
+
+	\midrule
+	search results
+	& Yes & SearchResults & Class holds result of an individual search \\
+
+	\midrule
+	criteria \newline
+	date \newline
+	price \newline
+	location
+	& No &  & These are attributes of SearchResults \\
+
+	\midrule
+	review
+	& Yes & Review & Class holds a product review \\
+
+	\midrule
+	review score \newline
+	product rating & No &  & These are attributes of a review \\
+	\bottomrule
+\end{longtable}
+
+\subsection{Verbs}
+
+\renewcommand*{\arraystretch}{1.3}
+\begin{longtable}{m{2.5cm} >{\centering\arraybackslash}m{2cm} m{6cm}}
+	\toprule
+	\textbf{Verb} & \textbf{Accepted} & \textbf{Rationale} \\
+	\midrule
+	\endhead
+	\toprule
+	\textbf{Verb} & \textbf{Accepted as method} & \textbf{Rationale (if rejected)} \\
+	\endfirsthead
+	\midrule
+	advertise & No & Out of Scope \\
+	\midrule
+	register & Yes &  \\
+	\midrule
+	search & Yes &  \\
+	\midrule
+	offer &  & Generic term \\
+	\midrule
+	book & Yes &  \\
+	\midrule
+	pay & Yes &  \\
+	\midrule
+	rate & No & Out of Scope \\
+	\midrule
+	review & No & Out of Scope \\
+	\midrule
+	purchase & No & Is encompassed by book and pay \\
+	\midrule
+	filter & Yes &  \\
+	\midrule
+	handle & No & Generic term \\
+	\midrule
+	view & Yes &  \\
+	\midrule
+	cancel & Yes &  \\
+	\midrule
+	receive &  & Out of Scope \\
+	\midrule
+	opt out & No & This would be accomplished by setting a field variable in
+	the UserAccount, getters and setters are assumed and are not explicitly
+	included here \\
+	\bottomrule
+\end{longtable}
