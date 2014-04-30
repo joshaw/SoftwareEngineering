@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="52cm" height="28cm" viewBox="-325 36 1024 542" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="210.87" y="114.353" width="141.565" height="439.861"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #7f7f7f" x="210.87" y="114.353" width="141.565" height="439.861"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-153.103" y="101.528" width="188.547" height="189.415"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #7f7f7f" x="-153.103" y="101.528" width="188.547" height="189.415"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-118.592" y="206.937" width="138.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-118.592" y="206.937" width="138.4" height="70"/>
+    <rect style="fill: #ffffff" x="-138.592" y="220.937" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-138.592" y="220.937" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-138.592" y="248.937" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-138.592" y="248.937" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-90.5922" y="232.837">
+      <tspan x="-90.5922" y="232.837">User</tspan>
+      <tspan x="-90.5922" y="248.837">&lt;&lt;database&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="257.02" y="128.78" width="80" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="257.02" y="128.78" width="80" height="70"/>
+    <rect style="fill: #ffffff" x="237.02" y="142.78" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="237.02" y="142.78" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="237.02" y="170.78" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="237.02" y="170.78" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="285.02" y="154.68">
+      <tspan x="285.02" y="154.68">Search</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="249.32" y="246.626" width="87.7" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="249.32" y="246.626" width="87.7" height="70"/>
+    <rect style="fill: #ffffff" x="229.32" y="260.626" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="229.32" y="260.626" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="229.32" y="288.626" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="229.32" y="288.626" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="277.32" y="272.526">
+      <tspan x="277.32" y="272.526">Booking</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-118.592" y="114.861" width="138.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-118.592" y="114.861" width="138.4" height="70"/>
+    <rect style="fill: #ffffff" x="-138.592" y="128.861" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-138.592" y="128.861" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-138.592" y="156.861" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-138.592" y="156.861" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-90.5922" y="140.761">
+      <tspan x="-90.5922" y="140.761">Product</tspan>
+      <tspan x="-90.5922" y="156.761">&lt;&lt;database&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-127.313" y="315.862" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-127.313" y="315.862" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-147.313" y="329.862" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="329.862" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-147.313" y="357.862" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="357.862" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-99.3134" y="341.762">
+      <tspan x="-99.3134" y="341.762">Reviewing</tspan>
+      <tspan x="-99.3134" y="357.762">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-127.313" y="411.582" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-127.313" y="411.582" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-147.313" y="425.582" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="425.582" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-147.313" y="453.582" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="453.582" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-99.3134" y="437.482">
+      <tspan x="-99.3134" y="437.482">Recomendations</tspan>
+      <tspan x="-99.3134" y="453.482">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-127.313" y="507.301" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-127.313" y="507.301" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-147.313" y="521.301" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="521.301" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-147.313" y="549.301" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-147.313" y="549.301" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-99.3134" y="533.201">
+      <tspan x="-99.3134" y="533.201">Subscriber</tspan>
+      <tspan x="-99.3134" y="549.201">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="531.789" y="217.613" width="166.5" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="531.789" y="217.613" width="166.5" height="70"/>
+    <rect style="fill: #ffffff" x="511.789" y="231.613" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="511.789" y="231.613" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="511.789" y="259.613" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="511.789" y="259.613" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="559.789" y="243.513">
+      <tspan x="559.789" y="243.513">Security</tspan>
+      <tspan x="559.789" y="259.513">&lt;&lt;Infrastructure&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="481.972" y="49.049" width="162.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="481.972" y="49.049" width="162.4" height="70"/>
+    <rect style="fill: #ffffff" x="461.972" y="63.049" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="461.972" y="63.049" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="461.972" y="91.049" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="461.972" y="91.049" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="509.972" y="74.949">
+      <tspan x="509.972" y="74.949">Global</tspan>
+      <tspan x="509.972" y="90.949">Distribution System</tspan>
+      <tspan x="509.972" y="106.949">&lt;&lt;External&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="509.493" y="500.967" width="132.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="509.493" y="500.967" width="132.15" height="70"/>
+    <rect style="fill: #ffffff" x="489.493" y="514.967" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="489.493" y="514.967" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="489.493" y="542.967" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="489.493" y="542.967" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="537.493" y="526.867">
+      <tspan x="537.493" y="526.867">3rd Party</tspan>
+      <tspan x="537.493" y="542.867">Consortium</tspan>
+      <tspan x="537.493" y="558.867">&lt;&lt;External&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="244.97" y="366.094" width="92.05" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244.97" y="366.094" width="92.05" height="70"/>
+    <rect style="fill: #ffffff" x="224.97" y="380.094" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="224.97" y="380.094" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="224.97" y="408.094" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="224.97" y="408.094" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="272.97" y="391.994">
+      <tspan x="272.97" y="391.994">Payment</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.8078,149.861 80.5028,149.861 80.5028,149.758 119.531,149.758 "/>
+    <path style="fill: #ffffff" d="M 135.531 149.758 C 135.531,153.758 131.531,157.758 127.531,157.758 C 123.531,157.758 119.531,153.758 119.531,149.758 C 119.531,145.758 123.531,141.758 127.531,141.758 C 131.531,141.758 135.531,145.758 135.531,149.758z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 135.531 149.758 C 135.531,153.758 131.531,157.758 127.531,157.758 C 123.531,157.758 119.531,153.758 119.531,149.758 C 119.531,145.758 123.531,141.758 127.531,141.758 C 131.531,141.758 135.531,145.758 135.531,149.758"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="49.1835" y="123.896">
+      <tspan x="49.1835" y="123.896">Product and </tspan>
+      <tspan x="49.1835" y="139.896">search details</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="237.02,149.78 186.775,149.78 186.775,149.758 152.531,149.758 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 144.531,157.758 A 8,8 0 1 0 144.531,141.758"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="214.655" y="103.051">
+      <tspan x="214.655" y="103.051"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-49.3922,114.861 -49.3922,71.187 99.9525,71.187 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 107.952,63.187 A 8,8 0 1 0 107.952,79.187"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="4.64351" y="48.7382">
+      <tspan x="4.64351" y="48.7382">Availability </tspan>
+      <tspan x="4.64351" y="64.7382">information</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="461.972,70.049 349.293,70.049 349.293,70.2517 253.615,70.2517 "/>
+    <path style="fill: #ffffff" d="M 237.615 70.2517 C 237.615,66.2517 241.615,62.2517 245.615,62.2517 C 249.615,62.2517 253.615,66.2517 253.615,70.2517 C 253.615,74.2517 249.615,78.2517 245.615,78.2517 C 241.615,78.2517 237.615,74.2517 237.615,70.2517z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 237.615 70.2517 C 237.615,66.2517 241.615,62.2517 245.615,62.2517 C 249.615,62.2517 253.615,66.2517 253.615,70.2517 C 253.615,74.2517 249.615,78.2517 245.615,78.2517 C 241.615,78.2517 237.615,74.2517 237.615,70.2517"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="286.699" y="56.6746">
+      <tspan x="286.699" y="56.6746"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="271.87" y="465.486" width="65.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="271.87" y="465.486" width="65.15" height="70"/>
+    <rect style="fill: #ffffff" x="251.87" y="479.486" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="251.87" y="479.486" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="251.87" y="507.486" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="251.87" y="507.486" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="299.87" y="491.386">
+      <tspan x="299.87" y="491.386">User</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="615.039,217.613 615.039,173.142 575.382,173.142 "/>
+    <path style="fill: #ffffff" d="M 559.382 173.142 C 559.382,169.142 563.382,165.142 567.382,165.142 C 571.382,165.142 575.382,169.142 575.382,173.142 C 575.382,177.142 571.382,181.142 567.382,181.142 C 563.382,181.142 559.382,177.142 559.382,173.142z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 559.382 173.142 C 559.382,169.142 563.382,165.142 567.382,165.142 C 571.382,165.142 575.382,169.142 575.382,173.142 C 575.382,177.142 571.382,181.142 567.382,181.142 C 563.382,181.142 559.382,177.142 559.382,173.142"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="335.995" y="261.524">
+      <tspan x="335.995" y="261.524"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="461.972,98.049 423.972,98.049 423.972,173.142 456.328,173.142 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 464.328,165.142 A 8,8 0 1 0 464.328,181.142"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="461.104" y="144.146">
+      <tspan x="461.104" y="144.146">Booking</tspan>
+      <tspan x="461.104" y="160.146">details</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.789,238.613 479.249,238.613 479.249,238.641 462.709,238.641 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 454.709,246.641 A 8,8 0 1 0 454.709,230.641"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="456.427" y="209.622">
+      <tspan x="456.427" y="209.622">Booking</tspan>
+      <tspan x="456.427" y="225.622">details</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="337.02,401.094 398.434,401.094 398.434,332.155 413.237,332.155 "/>
+    <path style="fill: #ffffff" d="M 429.237 332.155 C 429.237,336.155 425.237,340.155 421.237,340.155 C 417.237,340.155 413.237,336.155 413.237,332.155 C 413.237,328.155 417.237,324.155 421.237,324.155 C 425.237,324.155 429.237,328.155 429.237,332.155z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 429.237 332.155 C 429.237,336.155 425.237,340.155 421.237,340.155 C 417.237,340.155 413.237,336.155 413.237,332.155 C 413.237,328.155 417.237,324.155 421.237,324.155 C 425.237,324.155 429.237,328.155 429.237,332.155"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="336.909" y="386.801">
+      <tspan x="336.909" y="386.801"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.789,266.613 471.013,266.613 471.013,332.155 446.237,332.155 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 438.237,340.155 A 8,8 0 1 0 438.237,324.155"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="411.529" y="302.223">
+      <tspan x="411.529" y="302.223">Payment</tspan>
+      <tspan x="411.529" y="318.223">details</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-138.592,135.861 -323.173,135.861 -323.173,525.54 -301.173,525.54 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -293.173,517.54 A 8,8 0 1 0 -293.173,533.54"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-299.944" y="497.736">
+      <tspan x="-299.944" y="497.736">Product</tspan>
+      <tspan x="-299.944" y="513.736">information</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-147.313,432.582 -203.644,432.582 -203.644,360.454 -242.975,360.454 "/>
+    <path style="fill: #ffffff" d="M -258.975 360.454 C -258.975,356.454 -254.975,352.454 -250.975,352.454 C -246.975,352.454 -242.975,356.454 -242.975,360.454 C -242.975,364.454 -246.975,368.454 -250.975,368.454 C -254.975,368.454 -258.975,364.454 -258.975,360.454z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -258.975 360.454 C -258.975,356.454 -254.975,352.454 -250.975,352.454 C -246.975,352.454 -242.975,356.454 -242.975,360.454 C -242.975,364.454 -246.975,368.454 -250.975,368.454 C -254.975,368.454 -258.975,364.454 -258.975,360.454"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-201.761" y="413.455">
+      <tspan x="-201.761" y="413.455"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-138.592,227.937 -297.975,227.937 -297.975,360.454 -275.975,360.454 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -267.975,352.454 A 8,8 0 1 0 -267.975,368.454"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-209.581" y="382.176">
+      <tspan x="-209.581" y="382.176">Recommendation</tspan>
+      <tspan x="-209.581" y="398.176">information</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-138.592,255.937 -179.3,255.937 -179.3,292.681 -203.007,292.681 "/>
+    <path style="fill: #ffffff" d="M -219.007 292.681 C -219.007,288.681 -215.007,284.681 -211.007,284.681 C -207.007,284.681 -203.007,288.681 -203.007,292.681 C -203.007,296.681 -207.007,300.681 -211.007,300.681 C -215.007,300.681 -219.007,296.681 -219.007,292.681z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -219.007 292.681 C -219.007,288.681 -215.007,284.681 -211.007,284.681 C -207.007,284.681 -203.007,288.681 -203.007,292.681 C -203.007,296.681 -207.007,300.681 -211.007,300.681 C -215.007,300.681 -219.007,296.681 -219.007,292.681"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-149.886" y="399.455">
+      <tspan x="-149.886" y="399.455"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-147.313,336.862 -258.007,336.862 -258.007,292.681 -236.007,292.681 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -228.007,284.681 A 8,8 0 1 0 -228.007,300.681"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-196.547" y="257.057">
+      <tspan x="-196.547" y="257.057">Review</tspan>
+      <tspan x="-196.547" y="273.057">information</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.8078,241.937 169.02,241.937 169.02,184.94 147.02,184.94 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 139.02,192.94 A 8,8 0 1 0 139.02,176.94"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="98.0023" y="235.335">
+      <tspan x="98.0023" y="235.335">Past bookings</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-148.323,556.301 -216.748,556.301 -216.748,525.54 -268.173,525.54 "/>
+    <path style="fill: #ffffff" d="M -284.173 525.54 C -284.173,521.54 -280.173,517.54 -276.173,517.54 C -272.173,517.54 -268.173,521.54 -268.173,525.54 C -268.173,529.54 -272.173,533.54 -276.173,533.54 C -280.173,533.54 -284.173,529.54 -284.173,525.54z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M -284.173 525.54 C -284.173,521.54 -280.173,517.54 -276.173,517.54 C -272.173,517.54 -268.173,521.54 -268.173,525.54 C -268.173,529.54 -272.173,533.54 -276.173,533.54 C -280.173,533.54 -284.173,529.54 -284.173,525.54"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-324.272" y="191.022">
+      <tspan x="-324.272" y="191.022"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.8078,184.861 75.4137,184.861 75.4137,184.94 114.02,184.94 "/>
+    <path style="fill: #ffffff" d="M 130.02 184.94 C 130.02,188.94 126.02,192.94 122.02,192.94 C 118.02,192.94 114.02,188.94 114.02,184.94 C 114.02,180.94 118.02,176.94 122.02,176.94 C 126.02,176.94 130.02,180.94 130.02,184.94z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 130.02 184.94 C 130.02,188.94 126.02,192.94 122.02,192.94 C 118.02,192.94 114.02,188.94 114.02,184.94 C 114.02,180.94 118.02,176.94 122.02,176.94 C 126.02,176.94 130.02,180.94 130.02,184.94"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="24.9838" y="164.843">
+      <tspan x="24.9838" y="164.843"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.8078,276.937 73.676,276.937 73.676,486.441 110.544,486.441 "/>
+    <path style="fill: #ffffff" d="M 126.544 486.441 C 126.544,490.441 122.544,494.441 118.544,494.441 C 114.544,494.441 110.544,490.441 110.544,486.441 C 110.544,482.441 114.544,478.441 118.544,478.441 C 122.544,478.441 126.544,482.441 126.544,486.441z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 126.544 486.441 C 126.544,490.441 122.544,494.441 118.544,494.441 C 114.544,494.441 110.544,490.441 110.544,486.441 C 110.544,482.441 114.544,478.441 118.544,478.441 C 122.544,478.441 126.544,482.441 126.544,486.441"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="19.8033" y="257.041">
+      <tspan x="19.8033" y="257.041"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.87,486.486 189.707,486.486 189.707,486.441 143.544,486.441 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 135.544,494.441 A 8,8 0 1 0 135.544,478.441"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="157.086" y="469.063">
+      <tspan x="157.086" y="469.063">User details</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="19.8078,276.937 73.676,276.937 73.676,295.288 110.544,295.288 "/>
+    <path style="fill: #ffffff" d="M 126.544 295.288 C 126.544,299.288 122.544,303.288 118.544,303.288 C 114.544,303.288 110.544,299.288 110.544,295.288 C 110.544,291.288 114.544,287.288 118.544,287.288 C 122.544,287.288 126.544,291.288 126.544,295.288z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 126.544 295.288 C 126.544,299.288 122.544,303.288 118.544,303.288 C 114.544,303.288 110.544,299.288 110.544,295.288 C 110.544,291.288 114.544,287.288 118.544,287.288 C 122.544,287.288 126.544,291.288 126.544,295.288"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="20.6722" y="257.041">
+      <tspan x="20.6722" y="257.041"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="229.32,295.626 178.432,295.626 178.432,295.288 143.544,295.288 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 135.544,303.288 A 8,8 0 1 0 135.544,287.288"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="172.726" y="315.272">
+      <tspan x="172.726" y="315.272">Booking </tspan>
+      <tspan x="172.726" y="331.272">history</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="337.02,163.78 375.05,163.78 375.05,428.335 "/>
+    <path style="fill: #ffffff" d="M 375.05 444.335 C 371.05,444.335 367.05,440.335 367.05,436.335 C 367.05,432.335 371.05,428.335 375.05,428.335 C 379.05,428.335 383.05,432.335 383.05,436.335 C 383.05,440.335 379.05,444.335 375.05,444.335z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 375.05 444.335 C 371.05,444.335 367.05,440.335 367.05,436.335 C 367.05,432.335 371.05,428.335 375.05,428.335 C 379.05,428.335 383.05,432.335 383.05,436.335 C 383.05,440.335 379.05,444.335 375.05,444.335"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="334.334" y="478.72">
+      <tspan x="334.334" y="478.72"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="337.02,500.486 375.05,500.486 375.05,461.335 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 367.05,453.328 A 8,8 0 0 0 383.05,453.341"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="389.629" y="477.831">
+      <tspan x="389.629" y="477.831">Search</tspan>
+      <tspan x="389.629" y="493.831">history</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="337.02,281.626 391.865,281.626 391.865,238.641 429.709,238.641 "/>
+    <path style="fill: #ffffff" d="M 445.709 238.641 C 445.709,242.641 441.709,246.641 437.709,246.641 C 433.709,246.641 429.709,242.641 429.709,238.641 C 429.709,234.641 433.709,230.641 437.709,230.641 C 441.709,230.641 445.709,234.641 445.709,238.641z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 445.709 238.641 C 445.709,242.641 441.709,246.641 437.709,246.641 C 433.709,246.641 429.709,242.641 429.709,238.641 C 429.709,234.641 433.709,230.641 437.709,230.641 C 441.709,230.641 445.709,234.641 445.709,238.641"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="334.209" y="260.941">
+      <tspan x="334.209" y="260.941"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="615.039,287.613 615.039,315.964 615.44,315.964 615.44,327.315 "/>
+    <path style="fill: #ffffff" d="M 615.44 343.315 C 611.44,343.315 607.44,339.315 607.44,335.315 C 607.44,331.315 611.44,327.315 615.44,327.315 C 619.44,327.315 623.44,331.315 623.44,335.315 C 623.44,339.315 619.44,343.315 615.44,343.315z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 615.44 343.315 C 611.44,343.315 607.44,339.315 607.44,335.315 C 607.44,331.315 611.44,327.315 615.44,327.315 C 619.44,327.315 623.44,331.315 623.44,335.315 C 623.44,339.315 619.44,343.315 615.44,343.315"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="618.246" y="267.257">
+      <tspan x="618.246" y="267.257"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="575.568,500.967 575.568,454.911 616.375,454.911 616.375,424.855 "/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 608.375,416.849 A 8,8 0 0 0 624.375,416.862"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="570.542" y="376.117">
+      <tspan x="570.542" y="376.117">Payment</tspan>
+      <tspan x="570.542" y="392.117">details</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="615.44" y1="344.315" x2="615.44" y2="409.408"/>
+    <polygon style="fill: #000000" points="615.44,416.908 610.44,406.908 615.44,409.408 620.44,406.908 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="615.44,416.908 610.44,406.908 615.44,409.408 620.44,406.908 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="236.615" y1="70.2517" x2="116.335" y2="71.117"/>
+    <polygon style="fill: #000000" points="108.835,71.1709 118.799,66.0991 116.335,71.117 118.87,76.0989 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="108.835,71.1709 118.799,66.0991 116.335,71.117 118.87,76.0989 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="558.382" y1="173.142" x2="474.581" y2="173.98"/>
+    <polygon style="fill: #000000" points="467.081,174.055 477.031,168.956 474.581,173.98 477.131,178.955 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="467.081,174.055 477.031,168.956 474.581,173.98 477.131,178.955 "/>
+  </g>
+</svg>
