@@ -212,4 +212,6 @@
   <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-348.54" y="892.546">
     <tspan x="-348.54" y="892.546">Firewall</tspan>
   </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-431.726" y1="515.389" x2="-431.726" y2="540.345"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-431.726" y1="610.345" x2="-431.726" y2="635.299"/>
 </svg>
