@@ -17,7 +17,7 @@ all:
 	@$(BUILDTEX) > /dev/null
 	@echo -e "\n"
 	@$(BUILDTEX) > /dev/null
-	@xdotool search $(PROJECT).pdf key r > /dev/null 2>&1
+#	@xdotool search $(PROJECT).pdf key r > /dev/null 2>&1
 
 once:
 	$(BUILDTEX)
