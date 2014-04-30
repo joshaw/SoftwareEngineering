@@ -83,8 +83,8 @@
 \renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
 \renewcommand{\labelenumiii}{\theenumiii}
 \renewcommand{\theenumiii}{\theenumii\arabic{enumiii}.}
-\newcommand{\anoun}[1]{\textcolor{red}{\textsc{#1}}}
-\newcommand{\averb}[1]{\textcolor{blue}{#1}}
+\newcommand{\anoun}[1]{\textcolor{red}{\textbf{#1}}}
+\newcommand{\averb}[1]{\textcolor{blue}{\textbf{#1}}}
 
 %*******************************************************************************
 %******************************** END HEADER ***********************************
@@ -106,6 +106,12 @@
 \clearpage
 
 \section{Use Case Diagram}
+
+The use case diagram below represents a user's interaction with the Travpedia
+system and the ways in which these actions are handled by the system and
+external and third party systems. Each use case is a simple view of what would
+be a more complex series of events to realise it.
+
 \begin{figure}[h!]
 	\centering
 	\makebox[\textwidth][c]{\includegraphics[angle=90,width=1.06\linewidth]{../UseCaseDiagram/UseCaseDiagram.pdf}}%
@@ -115,7 +121,8 @@
 
 \section{Activity Diagram}
 
-The activity diagram models the scenario for the user searching for and making an accommodation booking.
+The activity diagram models the scenario for the user searching for and making
+an accommodation booking.
 
 \begin{figure}[h!]
 	\centering
@@ -137,25 +144,28 @@ The activity diagram models the scenario for the user searching for and making a
 
 \section{First Cut Class Diagram}
 
-\todo
-From noun verb analysis, dropped unnnessaary
-Shows most basic skeleton structure.
+The first cut class diagram shows the results of the noun verb analysis that we
+performed. Some of the nouns and verbs were not suitable to keep as classes and
+methods as they were generic or duplicated. The diagram shows the basic
+skeletal structure that will adopted for the system.
 
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.91\textheight]{../ClassDiagram/FirstCutClass.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.83\textheight]{../ClassDiagram/FirstCutClass.pdf}}%
 	\caption{First cut class diagram}
 \end{figure}
 \clearpage
 
 \section{Class Diagram}
 
-\todo
-Getters and setters not included
+The class diagram is an extension of the first cut class diagram with methods
+and class hierachies included. It is assumed that getters and setters are
+included for many of the field variables, but these have been left off for
+brevity.
 
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.91\textheight]{../ClassDiagram/ClassDiagram.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.85\textheight]{../ClassDiagram/ClassDiagram.pdf}}%
 	\caption{Class diagram}
 \end{figure}
 \clearpage
@@ -165,12 +175,14 @@ Getters and setters not included
 The object diagram below relates the following scenario:
 
 \begin{quote}
-
+	A user called Howard Evans wants to book accomodation at a five star hotel
+	in London. He wants to pay by card and stay for 5 nights starting on
+	Christmas day this year.
 \end{quote}
 
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.91\textheight]{../ObjectDiagram/ObjectDiagram.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.81\textheight]{../ObjectDiagram/ObjectDiagram.pdf}}%
 	\caption{Object diagram}
 \end{figure}
 \clearpage
@@ -199,21 +211,34 @@ the user searching for and making an accommodation booking.
 \begin{figure}[h!]
 	\centering
 	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.91\textheight]{../ComponentDiagram/ComponentDIagram.pdf}}%
-	\caption{Deployment deployment diagram}
+	\caption{Component diagram}
 \end{figure}
 \clearpage
 
 \section{Deployment Diagrams}
+
+The first deployment diagram shows a possible implementation of a three tier
+architecure. This incorporates the security aspects of the design separately in
+the database and the business logic layers.
+
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[height=0.91\textheight]{../DeploymentDiagram/deploymentDiag3tier.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[height=0.85\textheight]{../DeploymentDiagram/deploymentDiag3tier.pdf}}%
 	\caption{Three tier deployment diagram}
 \end{figure}
 \clearpage
 
+The second deployment diagram shows a four tier architecure. This separates the
+security aspects into a separate layer which means that the security can be
+handled by a single system rather than being separated across different layers.
+
+Were this system to be built, we would recommend the four tier architecture
+shown here as this reduces overall complexity (since elements are not
+duplicated) and so improves reliability as well as increasing security.
+
 \begin{figure}[h!]
 	\centering
-	\makebox[\textwidth][c]{\includegraphics[angle=90,height=0.89\textheight]{../DeploymentDiagram/deploymentDiag4tier.pdf}}%
+	\makebox[\textwidth][c]{\includegraphics[angle=90,width=1.2\textwidth]{../DeploymentDiagram/deploymentDiag4tier.pdf}}%
 	\caption{Four tier deployment diagram}
 \end{figure}
 \clearpage
