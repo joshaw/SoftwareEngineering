@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="45cm" height="41cm" viewBox="-607 119 898 815" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="14.0621" y="456.556" width="275.721" height="194.782"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="14.0621" y="456.556" width="275.721" height="194.782"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="34.3657,504.082 44.3657,494.082 275.024,494.082 275.024,627.003 265.024,637.003 34.3657,637.003 34.3657,504.082 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="34.3657,504.082 44.3657,494.082 275.024,494.082 275.024,627.003 265.024,637.003 34.3657,637.003 34.3657,504.082 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="34.3657" y1="504.082" x2="265.024" y2="504.082"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="265.024" y1="504.082" x2="275.024" y2="494.082"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="265.024" y1="504.082" x2="265.024" y2="637.003"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="44.3657" y="525.982">
+      <tspan x="44.3657" y="525.982">&lt;&lt;device&gt;&gt;</tspan>
+      <tspan x="44.3657" y="541.982">Firewall</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="44.3657" y1="528.982" x2="129.516" y2="528.982"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="44.3657" y1="544.982" x2="92.5657" y2="544.982"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-555.111" y="792.959" width="400.519" height="139.356"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-555.111" y="792.959" width="400.519" height="139.356"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-463.516,815.059 -453.516,805.059 -184.989,805.059 -184.989,905.044 -194.989,915.044 -463.516,915.044 -463.516,815.059 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-463.516,815.059 -453.516,805.059 -184.989,805.059 -184.989,905.044 -194.989,915.044 -463.516,915.044 -463.516,815.059 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-463.516" y1="815.059" x2="-194.989" y2="815.059"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-194.989" y1="815.059" x2="-184.989" y2="805.059"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-194.989" y1="815.059" x2="-194.989" y2="915.044"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-453.516" y="836.959">
+      <tspan x="-453.516" y="836.959">&lt;&lt;device&gt;&gt;</tspan>
+      <tspan x="-453.516" y="852.959">Interface</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-453.516" y1="839.959" x2="-368.366" y2="839.959"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-453.516" y1="855.959" x2="-396.166" y2="855.959"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-324.26" y="831.26" width="98.2" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-324.26" y="831.26" width="98.2" height="70"/>
+    <rect style="fill: #ffffff" x="-344.26" y="845.26" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-344.26" y="845.26" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-344.26" y="873.26" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-344.26" y="873.26" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-296.26" y="857.16">
+      <tspan x="-296.26" y="857.16">Travpedia</tspan>
+      <tspan x="-296.26" y="873.16">Website</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-545.48" y="813.479">
+    <tspan x="-545.48" y="813.479">Client Layer</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-605.225" y="348.688" width="481.312" height="409.344"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-605.225" y="348.688" width="481.312" height="409.344"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-571.635,392.847 -561.635,382.847 -149.199,382.847 -149.199,724.48 -159.199,734.48 -571.635,734.48 -571.635,392.847 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-571.635,392.847 -561.635,382.847 -149.199,382.847 -149.199,724.48 -159.199,734.48 -571.635,734.48 -571.635,392.847 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-571.635" y1="392.847" x2="-159.199" y2="392.847"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-159.199" y1="392.847" x2="-149.199" y2="382.847"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-159.199" y1="392.847" x2="-159.199" y2="734.48"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-561.635" y="414.747">
+      <tspan x="-561.635" y="414.747">&lt;&lt;device&gt;&gt;</tspan>
+      <tspan x="-561.635" y="430.747">Server</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-561.635" y1="417.747" x2="-476.485" y2="417.747"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-561.635" y1="433.747" x2="-519.585" y2="433.747"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-280.585" y="407.3" width="80" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-280.585" y="407.3" width="80" height="70"/>
+    <rect style="fill: #ffffff" x="-300.585" y="421.3" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300.585" y="421.3" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-300.585" y="449.3" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300.585" y="449.3" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-252.585" y="433.2">
+      <tspan x="-252.585" y="433.2">Search</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-284.435" y="489.674" width="87.7" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-284.435" y="489.674" width="87.7" height="70"/>
+    <rect style="fill: #ffffff" x="-304.435" y="503.674" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-304.435" y="503.674" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-304.435" y="531.674" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-304.435" y="531.674" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-256.435" y="515.574">
+      <tspan x="-256.435" y="515.574">Booking</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-504.475" y="441.976" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-504.475" y="441.976" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-524.475" y="455.976" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="455.976" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-524.475" y="483.976" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="483.976" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-476.475" y="467.876">
+      <tspan x="-476.475" y="467.876">Reviewing</tspan>
+      <tspan x="-476.475" y="483.876">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-504.475" y="631.887" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-504.475" y="631.887" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-524.475" y="645.887" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="645.887" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-524.475" y="673.887" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="673.887" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-476.475" y="657.787">
+      <tspan x="-476.475" y="657.787">Recomendations</tspan>
+      <tspan x="-476.475" y="673.787">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-504.475" y="536.932" width="148.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-504.475" y="536.932" width="148.15" height="70"/>
+    <rect style="fill: #ffffff" x="-524.475" y="550.932" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="550.932" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-524.475" y="578.932" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-524.475" y="578.932" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-476.475" y="562.832">
+      <tspan x="-476.475" y="562.832">Subscriber</tspan>
+      <tspan x="-476.475" y="578.832">&lt;&lt;subsystem&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="69.1388" y="556.911" width="166.5" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="69.1388" y="556.911" width="166.5" height="70"/>
+    <rect style="fill: #ffffff" x="49.1388" y="570.911" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="49.1388" y="570.911" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="49.1388" y="598.911" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="49.1388" y="598.911" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97.1388" y="582.811">
+      <tspan x="97.1388" y="582.811">Security</tspan>
+      <tspan x="97.1388" y="598.811">&lt;&lt;Infrastructure&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-286.61" y="572.049" width="92.05" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-286.61" y="572.049" width="92.05" height="70"/>
+    <rect style="fill: #ffffff" x="-306.61" y="586.049" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-306.61" y="586.049" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-306.61" y="614.049" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-306.61" y="614.049" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-258.61" y="597.949">
+      <tspan x="-258.61" y="597.949">Payment</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-592.205" y="368.38">
+    <tspan x="-592.205" y="368.38">Business Logic Layer</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-598.475" y="120.155" width="483.664" height="200.982"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-598.475" y="120.155" width="483.664" height="200.982"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-560.798,159.296 -550.798,149.296 -152.487,149.296 -152.487,293.538 -162.487,303.538 -560.798,303.538 -560.798,159.296 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-560.798,159.296 -550.798,149.296 -152.487,149.296 -152.487,293.538 -162.487,303.538 -560.798,303.538 -560.798,159.296 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-560.798" y1="159.296" x2="-162.487" y2="159.296"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-162.487" y1="159.296" x2="-152.487" y2="149.296"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-162.487" y1="159.296" x2="-162.487" y2="303.538"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-550.798" y="181.196">
+      <tspan x="-550.798" y="181.196">&lt;&lt;device&gt;&gt;</tspan>
+      <tspan x="-550.798" y="197.196">Database</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-550.798" y1="184.196" x2="-465.648" y2="184.196"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="-550.798" y1="200.196" x2="-489.698" y2="200.196"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-510.563" y="211.741" width="138.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-510.563" y="211.741" width="138.4" height="70"/>
+    <rect style="fill: #ffffff" x="-530.563" y="225.741" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-530.563" y="225.741" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-530.563" y="253.741" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-530.563" y="253.741" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-482.563" y="237.641">
+      <tspan x="-482.563" y="237.641">User</tspan>
+      <tspan x="-482.563" y="253.641">&lt;&lt;database&gt;&gt;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-326.548" y="211.741" width="138.4" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-326.548" y="211.741" width="138.4" height="70"/>
+    <rect style="fill: #ffffff" x="-346.548" y="225.741" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-346.548" y="225.741" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-346.548" y="253.741" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-346.548" y="253.741" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-298.548" y="237.641">
+      <tspan x="-298.548" y="237.641">Product</tspan>
+      <tspan x="-298.548" y="253.641">&lt;&lt;database&gt;&gt;</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-588.179" y="136.347">
+    <tspan x="-588.179" y="136.347">Database Layer</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="24.1317" y="482.823">
+    <tspan x="24.1317" y="482.823">Security Layer</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-114.81" y1="220.646" x2="14.0621" y2="456.556"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-154.591" y1="862.637" x2="14.0621" y2="651.338"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-123.913" y1="553.36" x2="14.0621" y2="553.947"/>
+  <g>
+    <rect style="fill: #ffffff" x="-273.16" y="654.423" width="65.15" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-273.16" y="654.423" width="65.15" height="70"/>
+    <rect style="fill: #ffffff" x="-293.16" y="668.423" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-293.16" y="668.423" width="40" height="14"/>
+    <rect style="fill: #ffffff" x="-293.16" y="696.423" width="40" height="14"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-293.16" y="696.423" width="40" height="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-245.16" y="680.323">
+      <tspan x="-245.16" y="680.323">User</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-430.4" y1="511.976" x2="-430.4" y2="536.932"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-430.4" y1="606.932" x2="-430.4" y2="631.887"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-240.585" y1="477.3" x2="-240.585" y2="489.674"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-356.325" y1="666.887" x2="-293.16" y2="675.423"/>
+</svg>
